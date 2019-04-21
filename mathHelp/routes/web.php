@@ -13,3 +13,9 @@
 
 Route::post('/', 'MathHelp@firstBisector');
 Route::get('/', 'MathHelp@firstBisector');
+Route::post('/first', 'MathHelp@firstBisector');
+Route::get('/first', 'MathHelp@firstBisector');
+Route::post('/second', 'MathHelp@secondBisector');
+Route::get('/second', 'MathHelp@secondBisector');
+Route::post('/third', 'MathHelp@thirdBisector');
+Route::get('/third', 'MathHelp@thirdBisector');
